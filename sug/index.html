@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+
+        <p>请写下信息：</p>
+        <br>
+        <form method="post" action="./suggest.php">
+            <table>
+                <tr>
+                    <th style="text-align: right;"><label for="填写人">填写人：</label></th>
+                    <td><input type="text" id="name" name="name" /></td>
+                </tr>
+                <tr>
+                    <th style="text-align: right;"><label for="详细意见">详细意见：</label></th>
+                    <td><textarea name="suggestion"></textarea></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td><input type="submit" id="submit" value="提交" name="submit"/></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
